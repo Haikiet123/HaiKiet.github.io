@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>ĐĂNG NHẬP</h2>
+        <label for="username">Tài khoản</label>
+        <input type="text" id="username" placeholder="Nhập tài khoản">
+
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu">
+
+        <button id="loginBtn">Đăng nhập</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
